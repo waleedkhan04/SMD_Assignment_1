@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SMD_Assignment#1</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="exit">Exit</string>
+    <string name="gui_demo_title">Icons and Text Tab</string>
+    <string name="Fname_hint">First Name</string>
+    <string name="Lname_hint">Last Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="Rpassword_hint">Retype Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="logo_description">ChatApp</string>
+    <string name="backArrow">Back</string>
+    <string name="icon_and_text_tabs"> Icon and Text Tabs</string>
+
+
+</resources>

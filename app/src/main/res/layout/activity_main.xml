@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_sign_up.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF" >
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/logo_margin_top"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/FnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Fname_hint"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:inputType="text"
+        android:autofillHints="name" />
+    <EditText
+        android:id="@+id/LnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Lname_hint"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:inputType="textPassword"
+        android:autofillHints="password" />
+    <EditText
+        android:id="@+id/RpasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Rpassword_hint"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:inputType="textPassword"
+        android:autofillHints="password" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:layout_marginTop="@dimen/radio_button_margin_top"/>
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:layout_marginTop="@dimen/radio_button_margin_top"/>
+
+    </LinearLayout><LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:layout_marginTop="@dimen/button_margin_top"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/exitButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/button_margin_start"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:text="@string/exit" />
+
+    </LinearLayout>
+
+</LinearLayout>

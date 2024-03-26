@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#666364</color>
+    <color name="accent_color">#30B304</color>
+    <color name="your_tab_background_color">#3466E3</color>
+    <color name="your_tab_text_color">#FBF9F9</color>
+    <color name="your_tab_indicator_color">#6890D1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="your_nav_background_color">#ACA4A4</color>
+    <color name="your_icon_color">#1A5CC7</color>
+    <color name="your_text_color">#FFE502</color>
+    <color name="instagram_blue">#3467E8</color>
+
+</resources>
